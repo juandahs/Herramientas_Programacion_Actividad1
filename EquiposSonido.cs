@@ -18,7 +18,7 @@ namespace Actividad1
             while (precioVentaSinDescuento <= 0) 
             {
                 Console.WriteLine("Ingrese el precios de venta sin IVA");
-
+                //Se valida que el dato sea ingresado correctamente.
                 if (!double.TryParse(Console.ReadLine(), out precioVentaSinDescuento))
                     precioVentaSinDescuento = -1;
             }
@@ -43,7 +43,8 @@ namespace Actividad1
             //Se imprime la difernecia si hay descuentos
             if (precioVenta != precioVentaSinDescuento)
                 Console.WriteLine($"El precio de venta fue de ${precioVenta} teniendo una ahorro de ${precioVentaSinDescuento - precioVenta} ");
-
+            
+            //Se calculael IVA
             var Iva = precioVenta * 0.19;
             Console.WriteLine($"El IVA es de : ${Iva}");
             Console.WriteLine($"El total a pagar es de: $ {precioVenta + Iva}");           
