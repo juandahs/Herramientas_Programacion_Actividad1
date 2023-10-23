@@ -46,30 +46,38 @@ public static class Program
                 case 1:
                     //Se limpia la pantalla
                     Console.Clear();
-                    //Se inicia el ejercicio uno
+                    //Se inicia el ejercicio
                     _ = new FabricaComputadoras();            
                     break;
                 case 2:
                     //Se limpia la pantalla
                     Console.Clear();
-                    //Se inicia el ejercicio dos
+                    //Se inicia el ejercicio
                     _ = new Llantera();
                     break;
                 case 3:
                     //Se limpia la pantalla
                     Console.Clear();
-                    //Se inicia el ejercicio dos
+                    //Se inicia el ejercicio
                     _ = new JuegoPreguntas();
                     break;
                 case 4:
                     //Se limpia la pantalla
                     Console.Clear();
-                    //Se inicia el ejercicio dos
+                    //Se inicia el ejercicio
                     _ = new EquiposSonido();
                     break;
                 case 5:
+                    //Se limpia la pantalla
+                    Console.Clear();
+                    //Se inicia el ejercicio
+                    _ = new Fruteria();
                     break;
                 case 6:
+                    //Se limpia la pantalla
+                    Console.Clear();
+                    //Se inicia el ejercicio
+                    _ = new NumeroMedio();
                     break;
                 default:
                     MostrarError("La opción ingresada no es permida.");
