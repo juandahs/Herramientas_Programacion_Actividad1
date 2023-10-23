@@ -62,6 +62,10 @@ public static class Program
                     _ = new JuegoPreguntas();
                     break;
                 case 4:
+                    //Se limpia la pantalla
+                    Console.Clear();
+                    //Se inicia el ejercicio dos
+                    _ = new EquiposSonido();
                     break;
                 case 5:
                     break;
