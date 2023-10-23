@@ -10,7 +10,7 @@
 
 namespace Actidad1;
 
-public class Llantera
+internal class Llantera
 {
     public Llantera()
     {

@@ -1,4 +1,6 @@
-﻿namespace Actidad1;
+﻿using Actividad1;
+
+namespace Actidad1;
 
 public static class Program
 {
@@ -54,6 +56,10 @@ public static class Program
                     _ = new Llantera();
                     break;
                 case 3:
+                    //Se limpia la pantalla
+                    Console.Clear();
+                    //Se inicia el ejercicio dos
+                    _ = new JuegoPreguntas();
                     break;
                 case 4:
                     break;

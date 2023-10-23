@@ -11,7 +11,7 @@
 
 namespace Actidad1;
 
-public class FabricaComputadoras
+internal class FabricaComputadoras
 {
     public FabricaComputadoras()
     {
